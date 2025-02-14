@@ -1,0 +1,84 @@
++++/* Roboto */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+/* poppins */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@media (prefers-reduced-motion: no-preference) {
+  * {
+    scroll-behavior: smooth;
+  }
+}
+
+:root {
+  --bg-color: rgba(212, 210, 210, 0.938);
+  --white-color: #fff;
+  --orange-color: orange;
+  --black-color: black;
+  --text-color: #454545;
+  --main-color: #36efa2;
+  --nav-color: #effefe;
+  --service-color: rgba(228, 227, 227, 0.962);
+  --future-color: #d4e1fa;
+  --future-bg-color: rgb(30, 40, 60);
+}
+
+:root {
+  --primaryColor: #f09d51;
+  --mainWhite: #fff;
+  --mainBlack: #222;
+  --mainGrey: #ececec;
+  --mainSpacing: 0.1rem;
+  --mainTransition: all 0.3s linear;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Roboto", "poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+
+body {
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* start of top div */
+.top {
+  width: 100%;
+  display: flex;
+  display: flex;
+  justify-content: space-around;
+  background-color: var(--nav-color);
+  padding: 10px 0;
+  box-shadow: 2px 1px 8px #999;
+}
+
+.top p,
+a,
+.discription,
+.login {
+  font-size: 12px;
+  font-family: "poppins", sans-serif;
+  color: var(--text-color);
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.top a:hover {
+  color: var(--black-color);
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+/* end of top div */
+
+/* header */
+.header{
+    padding: 1rem 14%;
+}
+/* end of header */
